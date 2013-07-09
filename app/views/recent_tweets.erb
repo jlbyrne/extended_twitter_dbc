@@ -1,0 +1,9 @@
+<div class='container'>
+  <h1>Here are the recent tweets for <%= @username %></h1>
+  
+  <% @current_tweets.each do |tweet| %>
+    <p><%= tweet.tweet_content %></p>
+  <% end %>
+
+
+</div>
